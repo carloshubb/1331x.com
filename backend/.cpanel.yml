@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/xcom/1331x/
+    - /bin/cp -R images $DEPLOYPATH
